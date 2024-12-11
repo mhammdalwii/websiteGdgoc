@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="flex items-center px-4">
+            <a href="#home">
+              <img src="./img/logogdgoc.png" class="max-w-96" alt="logoGdgoc" />
+            </a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-3 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-500"
+            >
+              <ul class="flex flex-col lg:flex-row">
+                <li class="group flex items-center">
+                  <a href="#home" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white font-bold"> Home </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#about" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Our Activities </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#portfolio" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Weekly Class </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#kerjasama" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Google Events </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#blog" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Our Team </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="home" class="pt-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-medium text-5xl mb-10">What is Google Developer Group On Campus?</h1>
+            <p class="text-justify text-base">
+              Google Developer Group On Campus (GDGOC) are community groups for college students interested in Google developer technologies. Students from all undergraduate or postgraduate programs with an interest in growing as a
+              developer are welcome. By joining a GDGOC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their communities. In 2021, GDGOC will be present at Makassar State
+              great things together? Join the GDGOC Universitas Negeri Makassar, and let's make an impact on our community ecosystem! Follow our instagram account: <a href="https://www.instagram.com/gdgoc.unm/">Ikuti</a>
+            </p>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <img src="./img/home.png" class="max-w-full" alt="hero" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
