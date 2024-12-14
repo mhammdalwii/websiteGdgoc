@@ -661,6 +661,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -801,6 +805,10 @@ video {
 
 .self-center {
   align-self: center;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded {
@@ -1129,9 +1137,17 @@ video {
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  .sm\:pt-24 {
+    padding-top: 6rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .md\:w-3\/5 {
     width: 60%;
   }
